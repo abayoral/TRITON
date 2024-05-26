@@ -5,7 +5,7 @@ This repository contains the files for object detection and tracking of botttles
 ![results.jpg](docs/result.jpg)
 
 The metrics of the model are shown below.
-![confusion_matrix.jpg](docs/confusion_matrix.png)
+![PR_curve.jpg](docs/PR_curve.png)
 
 ## Installation
 ```
