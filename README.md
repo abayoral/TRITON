@@ -1,4 +1,4 @@
-# TrashBot
+# TRITON
 
 This repository contains the files for object detection and tracking of botttles and cans. The purpose is for the algorithm of the TRITON garbage collection robot.
 
@@ -6,3 +6,14 @@ This repository contains the files for object detection and tracking of botttles
 
 The metrics of the model are shown below.
 ![confusion_matrix.jpg](docs/confusion_matrix.png)
+
+## Installation
+```
+git clone --recurse-submodules https://github.com/abayoral/TRITON
+```
+
+## Usage
+```
+python yolov5/train.py --img 640 --epochs 10 --data datasets/data.yaml --weights yolov5s.pt
+```
+
