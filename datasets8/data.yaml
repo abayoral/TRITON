@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Bottle', 'Can']
+
+# roboflow:
+#   workspace: floating-detection
+#   project: floating-f7drg
+#   version: 2
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/floating-detection/floating-f7drg/dataset/2
